@@ -5,7 +5,7 @@ import openai
 app = Flask(__name__)
 
 # Set up OpenAI API credentials
-openai.api_key = 'API Key'
+openai.api_key = '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'
 
 
 # Define the default route to return the index.html file
@@ -34,6 +34,6 @@ def api():
         return 'Failed to Generate response!'
     
 
-if __name__=='__main__':
+if __name__ == '__main__':
     app.run()
 
